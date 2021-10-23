@@ -64,7 +64,7 @@ then
 
 		# Continue git bash scritp
 		PS1="$PS1"'`__git_ps1`'   # bash function
-    PS1="$PS1 - You are pimped!"
+    PS1="$PS1"
 	fi
 fi
 

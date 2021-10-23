@@ -6,7 +6,7 @@
 # Description: Bare minimum for making it easy in git bash
 
 # List stuff
-alias ls="ls --color=yes"
+alias ls="ls --color=yes --hide=NTUSER* --hide=ntuser*"
 alias ll="ls -l"
 alias lsa="ls -al"
 
