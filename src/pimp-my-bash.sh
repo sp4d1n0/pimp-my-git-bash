@@ -22,15 +22,15 @@ PS1="$PS1"'\[\033[0;37m\]'   	 # Black Background, White Text
 PS1="$PS1"'\h '             	 # Hostname
 
 # Split arrow
-PS1="$PS1"'\[\033[0;30;46m\]'  # Cyan Background, Black Text
+PS1="$PS1"'\[\033[0;30;44m\]'  # Cyan Background, Black Text
 PS1="$PS1"''             	  # The Arrow Symbol itself
 
 # PWD
-PS1="$PS1"'\[\033[7;36;40m\]' #
+PS1="$PS1"'\[\033[7;34;40m\]' #
 PS1="$PS1"' \w '              # current working directory
 
 # Split arrow
-PS1="$PS1"'\[\033[0;36;40m\]' # change color white
+PS1="$PS1"'\[\033[0;34;40m\]' # change color white
 PS1="$PS1"''             	  # user@host<space>
 
 # Rest
